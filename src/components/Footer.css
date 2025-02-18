@@ -1,0 +1,115 @@
+.footer-container {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    background-color: #0c1618;
+}
+
+.address {
+    color: #c9f9d6;
+    width: 300px;
+}
+
+.address h3 {
+    color: #fbcb6f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.address section {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.address p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.address span {
+    margin-right: 20px;
+    font-size: larger;
+}
+
+.address span:hover {
+    color: #fbcb6f;
+    cursor: pointer;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    color: #c9f9d6;
+    width: 300px;
+}
+
+.information h3 {
+    color: #fbcb6f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.information a {
+    text-decoration: none;
+    color: #c9f9d6;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.information a:hover {
+    text-decoration: underline;
+    color: #fbcb6f;
+    cursor: pointer;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    color: #c9f9d6;
+    width: 300px;
+}
+
+.newsletter h3 {
+    color: #fbcb6f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    margin-bottom: 10px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.newsletter label {
+    margin-bottom: 5px;
+}
+
+.submit-btn {
+    background-color: transparent;
+    width: 100px;
+    color: #c9f9d6;
+    font-weight: bold;
+    border: 1px solid #c9f9d6;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    color: #fbcb6f;
+    border: 1px solid #fbcb6f;
+    cursor: pointer;
+}

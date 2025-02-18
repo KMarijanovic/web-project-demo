@@ -1,0 +1,44 @@
+.marquee {
+    height: 30px;
+    width: 100%;
+
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee div {
+    background-color: #004643;
+    color: white;
+    padding-top: 5px;
+
+    display: block;
+    width: 200%;
+    height: 30px;
+
+    position: absolute;
+    overflow: hidden;
+
+    animation: marquee 30s linear infinite;
+}
+
+.marquee span {
+    /* font-style: italic; */
+
+    float: right;
+    width: 50%;
+}
+
+.marquee span svg {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@keyframes marquee {
+    0% {
+        right: 0;
+    }
+
+    100% {
+        right: -100%;
+    }
+}

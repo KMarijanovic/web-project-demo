@@ -1,0 +1,128 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C9F9D6;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 70px;
+}
+
+/* left side of navbar */
+
+.navbar-container-left {
+    flex: 1;
+}
+
+.herbal {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.brand {
+    font-size: 35px;
+    text-decoration: none;
+    color: #0C1618;
+}
+
+.brand:hover {
+    color: #004643;
+}
+
+/* center of navbar */
+
+.navbar-container-center {
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-container-center ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.navbar-container-center li {
+    display: inline-flex;
+}
+
+.navbar-container-center li a,
+.dropbtn {
+    height: 70px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #0C1618;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    transition: color 1s;
+}
+
+.dropbtn svg {
+    color: #9a031e;
+    margin-left: 5px;
+}
+
+.navbar-container-center a:hover {
+    font-weight: bold;
+}
+
+.navbar-container-center li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    justify-content: center;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100vw;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 300;
+}
+
+.dropdown-content a {
+    color: #0C1618;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    color: #9a031e;
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: row;
+}
+
+/* right side of navbar */
+
+.navbar-container-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-container-right a {
+    margin-left: 35px;
+}
+
+.search-icon,
+.user-icon,
+.cart-icon {
+    color: #0C1618;
+}
+
+.search-icon:hover,
+.user-icon:hover,
+.cart-icon:hover {
+    color: #9a031e;
+}

@@ -1,0 +1,87 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* must be 400 to be on top of everything! */
+    z-index: 400;
+}
+
+.popup-inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.popup-inner .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-btn:hover {
+    cursor: pointer;
+    color: #9a031e;
+}
+
+.popup-inner h2,
+.popup-inner h1 {
+    margin: 5px 0px;
+}
+
+.popup-inner p {
+    margin: 10px 0px;
+}
+
+.popup-inner form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+
+.input-one {
+    margin: 10px 0px;
+    padding: 5px 5px;
+}
+
+.input-two-sub {
+    cursor: pointer;
+    width: 25%;
+    margin-left: 75%;
+    border: 1px solid black;
+    padding: 5px 0px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.input-two-sub:hover {
+    border: 1px solid #004643;
+    background-color: #004643;
+}

@@ -1,0 +1,75 @@
+.air-purifying-container {
+    overflow: hidden;
+}
+
+.air-purifying-container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+    color: #0C1618;
+    letter-spacing: 3px;
+}
+
+.air-purifying-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.air-purifying {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0c1618;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    transition: border 1s;
+}
+
+.air-purifying:hover {
+    border: 1px solid #004643;
+}
+
+.air-purifying img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0.6;
+    transition: opacity 1s;
+}
+
+.air-purifying img:hover {
+    opacity: 1.0;
+    transform: scaleX(-1);
+}
+
+.air-purifying h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #004643;
+}
+
+.air-purifying-price {
+    font-weight: bold;
+}
+
+.air-purifying button {
+    margin-top: 10px;
+    background-color: lightgray;
+    color: #0C1618;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.air-purifying button:hover {
+    background-color: #c9f9d6;
+}

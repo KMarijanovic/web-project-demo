@@ -1,0 +1,75 @@
+.shade-plants-container {
+    overflow: hidden;
+}
+
+.shade-plants-container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+    color: #0C1618;
+    letter-spacing: 3px;
+}
+
+.shade-plants-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shade-plant {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0c1618;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    transition: border 1s;
+}
+
+.shade-plant:hover {
+    border: 1px solid #004643;
+}
+
+.shade-plant img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0.6;
+    transition: opacity 1s;
+}
+
+.shade-plant img:hover {
+    opacity: 1.0;
+    transform: scaleX(-1);
+}
+
+.shade-plant h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #004643;
+}
+
+.shade-plant-price {
+    font-weight: bold;
+}
+
+.shade-plant button {
+    margin-top: 10px;
+    background-color: lightgray;
+    color: #0C1618;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.shade-plant button:hover {
+    background-color: #c9f9d6;
+}

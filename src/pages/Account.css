@@ -1,0 +1,87 @@
+.account-container {
+    width: 100vw;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: url("../images/account/login.jpg") no-repeat center center;
+    background-size: cover;
+
+}
+
+.login-container {
+    width: 50%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border: 2px solid #0C1618;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.login-container h1 {
+    margin: 35px 0;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-container form label {
+    margin-bottom: 15px;
+}
+
+.account-container form input {
+    width: 100%;
+    height: auto;
+    margin: 5px 0px;
+    padding: 10px 5px;
+}
+
+.login-btn {
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #0C1618;
+
+    letter-spacing: 2px;
+}
+
+.login-btn:hover {
+    color: #fbcb6f;
+}
+
+.login-container a {
+    text-decoration: none;
+    color: #0C1618;
+}
+
+.lost-pass-link {
+    margin: 5px 0px;
+    font-weight: bold;
+}
+
+.lost-pass-link:hover {
+    color: #9a031e;
+}
+
+.new-acc-link {
+    margin: 25px 0px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.new-acc-link:hover {
+    background-color: #c9f9d6;
+}

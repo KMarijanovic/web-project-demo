@@ -1,3 +1,8 @@
+# Kristina's note:
+Hello World! This is my "practice-project" - creating while learning about Front-End Development.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
